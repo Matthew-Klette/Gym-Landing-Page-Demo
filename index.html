@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Gym Supplements | Power Your Performance</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+
+<body>
+    <main class="container">
+        <section class="hero">
+            <h1>Fuel Your Fitness Journey</h1>
+            <p class="subtitle">Join thousands of athletes who've transformed their performance with our premium,
+                science-backed supplements.</p>
+        </section>
+
+        <section class="features">
+            <div class="feature">
+                <h3>Premium Protein</h3>
+                <p>High-quality whey isolate for maximum muscle growth</p>
+            </div>
+            <div class="feature">
+                <h3>Pre-Workout Energy</h3>
+                <p>Enhanced focus and explosive power</p>
+            </div>
+            <div class="feature">
+                <h3>Recovery Essentials</h3>
+                <p>Fast recovery with BCAAs and glutamine</p>
+            </div>
+        </section>
+
+        <section class="signup-section">
+            <div class="form-container">
+                <h2>Get 20% Off Your First Order</h2>
+                <p>Plus receive exclusive workout tips and supplement guides!</p>
+                <form id="leadForm" class="signup-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder="Full Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder="Email Address">
+                    </div>
+                    <div class="form-group">
+                        <select id="goal" name="goal" required>
+                            <option value="">Select Your Fitness Goal</option>
+                            <option value="muscle">Muscle Building</option>
+                            <option value="strength">Strength Training</option>
+                            <option value="endurance">Endurance</option>
+                            <option value="weight-loss">Weight Loss</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select id="experience" name="experience" required>
+                            <option value="">Your Training Experience</option>
+                            <option value="beginner">Beginner (0-1 years)</option>
+                            <option value="intermediate">Intermediate (1-3 years)</option>
+                            <option value="advanced">Advanced (3+ years)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="submit-btn">Claim Your 20% Discount</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <div id="thankYouModal" class="modal">
+        <div class="modal-content">
+            <h2>Welcome to the Team!</h2>
+            <p>Your 20% discount code has been sent to your email. Get ready to transform your workouts!</p>
+            <button class="close-btn">Close</button>
+        </div>
+    </div>
+
+    <script src="js/form.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+
+</html>
